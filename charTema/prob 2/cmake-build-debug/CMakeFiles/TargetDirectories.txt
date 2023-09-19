@@ -1,3 +1,3 @@
-/mnt/dootstorage/codingShit/c++Shit/charTema/prob 2/cmake-build-debug/CMakeFiles/prob_2.dir
-/mnt/dootstorage/codingShit/c++Shit/charTema/prob 2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/dootstorage/codingShit/c++Shit/charTema/prob 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/dootstorage/codingShit/c++Shit/scoala/charTema/prob 2/cmake-build-debug/CMakeFiles/prob_2.dir
+/mnt/dootstorage/codingShit/c++Shit/scoala/charTema/prob 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/dootstorage/codingShit/c++Shit/scoala/charTema/prob 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /snap/clion/250/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/mnt/dootstorage/codingShit/c++Shit/charTema/prob 2" -B"/mnt/dootstorage/codingShit/c++Shit/charTema/prob 2/cmake-build-debug"
+  command = /snap/clion/250/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/mnt/dootstorage/codingShit/c++Shit/scoala/charTema/prob 2" -B"/mnt/dootstorage/codingShit/c++Shit/scoala/charTema/prob 2/cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

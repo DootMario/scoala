@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "prob1",
+					"name" : "prob3",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "prob1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-prob1-Debug-a8899eef47bfef12ca59.json",
-					"name" : "prob1",
+					"id" : "prob3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prob3-Debug-0b057e64c7dc9a5fdc93.json",
+					"name" : "prob3",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/dootstorage/codingShit/c++Shit/charTema/prob1/cmake-build-debug",
-		"source" : "/mnt/dootstorage/codingShit/c++Shit/charTema/prob1"
+		"build" : "/mnt/dootstorage/codingShit/c++Shit/scoala/charTema/prob3/cmake-build-debug",
+		"source" : "/mnt/dootstorage/codingShit/c++Shit/scoala/charTema/prob3"
 	},
 	"version" : 
 	{

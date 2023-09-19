@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/dootstorage/codingShit/c++Shit/charTema/prob1/cmake-build-debug"
+			"value" : "/mnt/dootstorage/codingShit/c++Shit/scoala/charTema/prob 2/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -543,7 +543,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/dootstorage/codingShit/c++Shit/charTema/prob1/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/mnt/dootstorage/codingShit/c++Shit/scoala/charTema/prob 2/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/dootstorage/codingShit/c++Shit/charTema/prob1"
+			"value" : "/mnt/dootstorage/codingShit/c++Shit/scoala/charTema/prob 2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -843,7 +843,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "prob1"
+			"value" : "prob_2"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1138,7 +1138,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "prob1_BINARY_DIR",
+			"name" : "prob_2_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1147,10 +1147,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/dootstorage/codingShit/c++Shit/charTema/prob1/cmake-build-debug"
+			"value" : "/mnt/dootstorage/codingShit/c++Shit/scoala/charTema/prob 2/cmake-build-debug"
 		},
 		{
-			"name" : "prob1_IS_TOP_LEVEL",
+			"name" : "prob_2_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1162,7 +1162,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "prob1_SOURCE_DIR",
+			"name" : "prob_2_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1171,7 +1171,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/dootstorage/codingShit/c++Shit/charTema/prob1"
+			"value" : "/mnt/dootstorage/codingShit/c++Shit/scoala/charTema/prob 2"
 		}
 	],
 	"kind" : "cache",
