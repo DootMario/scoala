@@ -107,16 +107,11 @@ int main(){
     cout<<"pct3: "<<k<<endl;
 
     ///pct 4
-
-    for(int j=0; j<i; j++){
-        cout<<cuv[j]<<" ";
-    }
-
     cout<<"pct4: ";
 
     int ok=0;
     while(ok==0){
-        for(int j=0; j<i; j++) {
+        for(int j=0; j<i-1; j++) {
             ok=1;
             if(strcmp(cuv[j], cuv[j+1])>0){
                 ok = 0;
