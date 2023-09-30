@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+///353
+
 struct spectacol{
     int ti;
     int tf;
@@ -8,7 +10,7 @@ struct spectacol{
 
 int main() {
 
-    int n, ok=0;
+    int n, ok=0, i, j=1;
 
 
     fstream fin("spectacole.in", ios::in);
@@ -18,24 +20,24 @@ int main() {
 
     spectacol v[n], aux;
 
-    for(int i=0; i<n; i++){
+    for(i=0; i<n; i++){
 
         fin>>v[i].ti;
         fin>>v[i].tf;
 
     }
 
-    for(int i=0; i<n; i++){
+    for(i=0; i<n; i++){
 
         cout<<v[i].ti<<" "<<v[i].tf<<endl;
 
     }
 
     while (ok==0) {
-        for (int i = 0; i < n-1; i++) {
-            ok=1;
+        ok=1;
 
-            if (v[i].ti > v[i + 1].ti) {
+        for (i = 0; i < n-1; i++) {
+            if (v[i].tf > v[i + 1].tf) {
                 aux = v[i];
                 v[i] = v[i + 1];
                 v[i + 1] = aux;
@@ -50,41 +52,43 @@ int main() {
     ok=0;
 
     while (ok==0) {
-        for (int i = 0; i < n-1; i++) {
-            ok=1;
+        ok=1;
 
-            if (v[i].ti == v[i + 1].ti) {
-                if(v[i].tf > v[i+1].tf) {
+        for (i = 0; i < n-1; i++) {
+            if (v[i].tf == v[i + 1].tf) {
+                if(v[i].ti > v[i+1].ti) {
                     aux = v[i];
                     v[i] = v[i + 1];
                     v[i + 1] = aux;
                     ok = 0;
                 }
             }
-
-
         }
 
     }
 
     cout << "sortare" << endl;
 
-    for (int i = 0; i < n; i++) {
+    for (i = 0; i < n; i++) {
 
         cout << v[i].ti << " " << v[i].tf << endl;
 
     }
     //use 2 pointers to check
+    i=0;
     int s=0;
-    for(int i=0; i<n-1; i++){
-        if(v[i].tf<=v[i+1].ti){
+    while(j<=n){
+        if(v[i].tf<=v[j].ti){
             s++;
+            i=j;
+            j++;
         }
         else{
-            i++;
+            j++;
         }
+
     }
 
-    cout<<s;
+    fout<<s;
 
 }
