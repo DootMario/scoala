@@ -31,6 +31,4 @@ int main() {
 
     cout<<n;
 
-
-
 }
