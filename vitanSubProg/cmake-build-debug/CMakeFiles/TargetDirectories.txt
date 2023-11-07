@@ -1,0 +1,3 @@
+/mnt/dootstorage/codingShit/c++Shit/scoala/vitanSubProg/cmake-build-debug/CMakeFiles/vitanSubProg.dir
+/mnt/dootstorage/codingShit/c++Shit/scoala/vitanSubProg/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/dootstorage/codingShit/c++Shit/scoala/vitanSubProg/cmake-build-debug/CMakeFiles/rebuild_cache.dir
