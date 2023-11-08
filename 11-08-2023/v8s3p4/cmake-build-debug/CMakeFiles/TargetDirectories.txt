@@ -1,0 +1,3 @@
+/mnt/dootstorage/codingShit/c++Shit/scoala/11-08-2023/v8s3p4/cmake-build-debug/CMakeFiles/v8s3p4.dir
+/mnt/dootstorage/codingShit/c++Shit/scoala/11-08-2023/v8s3p4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/dootstorage/codingShit/c++Shit/scoala/11-08-2023/v8s3p4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
