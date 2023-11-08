@@ -1,0 +1,3 @@
+/mnt/dootstorage/codingShit/c++Shit/scoala/11-08-2023/crazyMat/cmake-build-debug/CMakeFiles/crazyMat.dir
+/mnt/dootstorage/codingShit/c++Shit/scoala/11-08-2023/crazyMat/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/dootstorage/codingShit/c++Shit/scoala/11-08-2023/crazyMat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
