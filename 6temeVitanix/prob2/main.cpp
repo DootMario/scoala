@@ -68,7 +68,7 @@ int main(){
     citire(n, k, v);
 
     for(int i=1; i<n/k; i++){
-        permutare(v, (i-1)*k, i*k-1);
+        permutare(v, (i-1)*(n/k), i*(n/k)-1);
     }
 
     afisare(v, n);
