@@ -32,7 +32,7 @@ int print(int n, int v[]){
 
 void bt(int sol[], int n, int k=0){
     if(k==n){
-        if(check(sol, n) && once(n, sol)){
+        if(check(sol, n) && once(n, sol)){//nuj ce se intampla aici dar nu e de bine
             print(n, sol);
         }
     }
