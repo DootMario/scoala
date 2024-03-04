@@ -1,3 +1,7 @@
+/*grup de n persoane care trebuie asezate in asa fel incat intre persoanele certate sa se afle cel putin o persoana
+ * si cel mult 2
+ * se incadreaza in capitolul permutarilor cu restrictii*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -32,7 +36,7 @@ int print(int n, int v[]){
 
 void bt(int sol[], int n, int k=0){
     if(k==n){
-        if(check(sol, n) && once(n, sol)){//nuj ce se intampla aici dar nu e de bine
+        if(check(sol, n) && once(n, sol)){
             print(n, sol);
         }
     }
