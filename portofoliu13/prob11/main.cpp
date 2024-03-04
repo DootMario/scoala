@@ -1,3 +1,7 @@
+/*se considera n cuburi de laturi si culori diverse, sa se construiasca teancuri de cuburi
+ * stabile in care nu se repeta culorile
+ * se incadreaza in tipul aranjamentelor*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
