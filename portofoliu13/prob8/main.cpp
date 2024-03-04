@@ -34,8 +34,8 @@ int iso(int col[], int n){
 int check(int mat[][100], int n){
 
     int col[n];
-    for(int i=0; i<n; i++){
-        for(int j=0; j<n; j++){
+    for(int j=0; j<n; j++){
+        for(int i=0; i<n; i++){
             col[i]=mat[i][j];
         }
 
@@ -79,7 +79,7 @@ int main() {
         }
     }
 
-//    cred ca am incurcat coloana cu linia undeva dar nu stiu unde
+//    cred ca am incurcat coloana cu linia undeva dar nu stiu unde(am gasti)
 
 //    test[0][0]=0;
 //    test[1][0]=0;

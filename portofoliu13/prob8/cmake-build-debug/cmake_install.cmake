@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/dootstorage/codingShit/c++Shit/scoala/portofoliu13/problema8
+# Install script for directory: /mnt/dootstorage/codingShit/c++Shit/scoala/portofoliu13/prob8
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/dootstorage/codingShit/c++Shit/scoala/portofoliu13/problema8/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/dootstorage/codingShit/c++Shit/scoala/portofoliu13/prob8/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

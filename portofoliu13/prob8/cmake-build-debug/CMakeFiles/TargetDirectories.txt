@@ -1,0 +1,3 @@
+/mnt/dootstorage/codingShit/c++Shit/scoala/portofoliu13/prob8/cmake-build-debug/CMakeFiles/problema8.dir
+/mnt/dootstorage/codingShit/c++Shit/scoala/portofoliu13/prob8/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/dootstorage/codingShit/c++Shit/scoala/portofoliu13/prob8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
