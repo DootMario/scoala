@@ -3,7 +3,7 @@ using namespace std;
 
 int check(int v[], int n){
     for(int i=0; i<n-1; i++){
-        if(abs(v[i]-v[i+1])==2){
+        if(abs(v[i]-v[i+1])!=2 && abs(v[i]-v[i+1])!=3){
             return 0;
         }
     }
