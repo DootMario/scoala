@@ -1,3 +1,6 @@
+/*tabla sah de n pe n, sa se aseze pe ea n ture in asa fel incat sa nu se atace
+ * se clasifica la permutari cu restrictii*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
