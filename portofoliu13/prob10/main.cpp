@@ -1,3 +1,6 @@
+/* se du un alfabet, sa se determine toate numerele unde nu se repeta de 3 ori vocale sau consoane
+ * se rezolva cu produs cartezian*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
