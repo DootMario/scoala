@@ -11,7 +11,13 @@ struct cub{
     int col;//nr natural reprezentand culoarea
 };
 
-void init(cub a, int id, int lat, int col){
+void copy(cub & a, cub & b){
+    a.id=b.id;
+    a.lat=b.lat;
+    a.col=b.col;
+}
+
+void init(cub & a, int id, int lat, int col){
     a.id=id;
     a.lat=lat;
     a.col=col;
@@ -19,14 +25,14 @@ void init(cub a, int id, int lat, int col){
 
 void print(cub v[], int n){
     for(int i=0; i<n; i++){
-        cout<<"( "<<v[i].id<<" "<<v[i].lat<<" "<<v[i].col<<" )`";
+        cout<<"( "<<v[i].id<<" "<<v[i].lat<<" "<<v[i].col<<" )";
     }
     cout<<endl;
 }
 
 int stable(cub v[], int n){
     for(int i=0; i<n-1; i++){
-        if(v[i].lat>=v[i+1].lat){
+        if(v[i].lat<v[i+1].lat){
             return 0;
         }
     }
@@ -44,7 +50,7 @@ int check(cub v[], int n){
 
 int once(cub v[], int n){
     for(int i=0; i<n-1; i++){
-        for(int j=i=1; j<n; j++){
+        for(int j=i+1; j<n; j++){
             if(v[i].id==v[j].id){
                 return 0;
             }
@@ -61,10 +67,8 @@ void bt(cub sol[], cub bag[], int n, int h, int k=0){
     }
     else{
         for(int i=0; i<n; i++){
-            sol[k].id=bag[i].id;
-            sol[k].lat=bag[i].lat;
-            sol[k].col=bag[i].col;
-            bt(sol, bag, n, k+1);
+            copy(sol[k], bag[i]);
+            bt(sol, bag, n, h, k+1);
         }
     }
 }
